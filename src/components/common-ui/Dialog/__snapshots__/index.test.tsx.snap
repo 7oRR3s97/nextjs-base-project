@@ -1,0 +1,186 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog should not render the dialog without dialogTitle and then render it 1`] = `null`;
+
+exports[`Dialog should not render the dialog without dialogTitle and then render it 2`] = `
+<div
+  class="MuiModal-root MuiDialog-root css-1xdf76q-MuiModal-root-MuiDialog-root"
+  data-testid="dialog-component"
+  role="presentation"
+>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop"
+    style="opacity: 1;"
+  />
+  <div
+    data-test="sentinelStart"
+    tabindex="0"
+  />
+  <div
+    class="MuiDialog-container MuiDialog-scrollPaper css-hz1bth-MuiDialog-container"
+    role="presentation"
+    style="opacity: 1;"
+    tabindex="-1"
+  >
+    <div
+      aria-labelledby=":r2:"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-lzee2o-MuiPaper-root-MuiDialog-paper"
+      role="dialog"
+    >
+      <div
+        class="MuiBox-root css-1xadayu"
+      >
+        <div
+          class="MuiBox-root css-b4z479"
+        >
+          dialog
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-test="sentinelEnd"
+    tabindex="0"
+  />
+</div>
+`;
+
+exports[`Dialog should render the dialog with dialogTitle but without title, subtitle and back button 1`] = `
+<div
+  class="MuiModal-root MuiDialog-root css-1xdf76q-MuiModal-root-MuiDialog-root"
+  data-testid="dialog-component"
+  role="presentation"
+>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop"
+    style="opacity: 1;"
+  />
+  <div
+    data-test="sentinelStart"
+    tabindex="0"
+  />
+  <div
+    class="MuiDialog-container MuiDialog-scrollPaper css-hz1bth-MuiDialog-container"
+    role="presentation"
+    style="opacity: 1;"
+    tabindex="-1"
+  >
+    <div
+      aria-labelledby=":r3:"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-lzee2o-MuiPaper-root-MuiDialog-paper"
+      role="dialog"
+    >
+      <div
+        class="MuiBox-root css-1xadayu"
+      >
+        <div
+          class="MuiBox-root css-qoi7s5"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-cq0u38-MuiSvgIcon-root"
+            data-testid="CloseIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+        </div>
+        <div
+          class="MuiBox-root css-b4z479"
+        >
+          dialog
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-test="sentinelEnd"
+    tabindex="0"
+  />
+</div>
+`;
+
+exports[`Dialog should run Dialog story play function and set open to false 1`] = `
+<div
+  class="MuiModal-root MuiDialog-root css-e76r08-MuiModal-root-MuiDialog-root"
+  data-testid="dialog-component"
+  role="presentation"
+>
+  <div
+    aria-hidden="true"
+    class="MuiBackdrop-root css-yiavyu-MuiBackdrop-root-MuiDialog-backdrop"
+    style="opacity: 1;"
+  />
+  <div
+    data-test="sentinelStart"
+    tabindex="0"
+  />
+  <div
+    class="MuiDialog-container MuiDialog-scrollPaper css-hz1bth-MuiDialog-container"
+    role="presentation"
+    style="opacity: 1;"
+    tabindex="-1"
+  >
+    <div
+      aria-labelledby=":r1:"
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm css-lzee2o-MuiPaper-root-MuiDialog-paper"
+      role="dialog"
+    >
+      <div
+        class="MuiBox-root css-1xadayu"
+      >
+        <div
+          class="MuiBox-root css-qoi7s5"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-cq0u38-MuiSvgIcon-root"
+            data-testid="CloseIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"
+            />
+          </svg>
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-3bmbr7-MuiSvgIcon-root"
+            data-testid="ArrowBackIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M20 11H7.83l5.59-5.59L12 4l-8 8 8 8 1.41-1.41L7.83 13H20v-2z"
+            />
+          </svg>
+          <h5
+            class="MuiTypography-root MuiTypography-h5 css-1xkaumy-MuiTypography-root"
+          >
+            dialog title
+          </h5>
+          <h6
+            class="MuiTypography-root MuiTypography-h6 css-1eadog5-MuiTypography-root"
+          >
+            dialog subtitle
+          </h6>
+        </div>
+        <div
+          class="MuiBox-root css-b4z479"
+        >
+          dialog
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    data-test="sentinelEnd"
+    tabindex="0"
+  />
+</div>
+`;

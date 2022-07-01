@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip should render a Error chip from story 1`] = `
+<div
+  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorError MuiChip-filledError css-q7go4k-MuiChip-root"
+  data-testid="chip-component"
+>
+  <span
+    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+  >
+    chip
+  </span>
+</div>
+`;
+
+exports[`Chip should render a Primary chip from story 1`] = `
+<div
+  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-filledPrimary css-9ei9a0-MuiChip-root"
+  data-testid="chip-component"
+>
+  <span
+    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+  >
+    chip
+  </span>
+</div>
+`;
+
+exports[`Chip should render a Success chip from story 1`] = `
+<div
+  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-filledSuccess css-1pptgcf-MuiChip-root"
+  data-testid="chip-component"
+>
+  <span
+    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+  >
+    chip
+  </span>
+</div>
+`;
+
+exports[`Chip should render a Warning chip from story 1`] = `
+<div
+  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorWarning MuiChip-filledWarning css-3hdox0-MuiChip-root"
+  data-testid="chip-component"
+>
+  <span
+    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+  >
+    chip
+  </span>
+</div>
+`;
+
+exports[`Chip should render a primary chip 1`] = `
+<div
+  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorPrimary MuiChip-filledPrimary css-9ei9a0-MuiChip-root"
+  data-testid="chip-component"
+>
+  <span
+    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+  >
+    chip
+  </span>
+</div>
+`;
+
+exports[`Chip should render a success chip 1`] = `
+<div
+  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorSuccess MuiChip-filledSuccess css-1pptgcf-MuiChip-root"
+  data-testid="chip-component"
+>
+  <span
+    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+  >
+    chip
+  </span>
+</div>
+`;
+
+exports[`Chip should render a warning chip 1`] = `
+<div
+  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorWarning MuiChip-filledWarning css-3hdox0-MuiChip-root"
+  data-testid="chip-component"
+>
+  <span
+    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+  >
+    chip
+  </span>
+</div>
+`;
+
+exports[`Chip should render an error chip 1`] = `
+<div
+  class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorError MuiChip-filledError css-q7go4k-MuiChip-root"
+  data-testid="chip-component"
+>
+  <span
+    class="MuiChip-label MuiChip-labelMedium css-6od3lo-MuiChip-label"
+  >
+    chip
+  </span>
+</div>
+`;

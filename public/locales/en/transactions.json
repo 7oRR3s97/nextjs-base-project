@@ -1,0 +1,15 @@
+{
+  "withdraw-balance-button": "withdraw",
+  "deposit-balance-button": "deposit",
+  "withdraw-balance-title": "withdraw",
+  "withdraw-balance-subtitle": "enter the amount you want to withdraw",
+  "withdraw-set-balance-button": "draw",
+  "withdraw-max-button": "max",
+  "exceed-balance-helper-text": "amount greater than your balance",
+  "withdraw-input-label": "value",
+  "deposit-success-title": "read the qrcode or copy the link to make your payment",
+  "deposit-success-subtitle": "when your payment is confirmed, we will deposit KBRTs at the address of the connected account. fees may apply for the transaction that will be deducted from purchased tokens.",
+  "copy": "copy",
+  "copied": "copied",
+  "balance-label": "my balance"
+}

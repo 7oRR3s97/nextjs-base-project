@@ -1,0 +1,10 @@
+{
+  "home-button": "home",
+  "metamask-button": "connect with metamask",
+  "metamask-connected": "metamask connected",
+  "wallet-button": "connect with wallet",
+  "wallet-connected": "wallet connected",
+  "my-profile-button": "profile",
+  "edit-data-button": "edit data",
+  "logout-button": "logout"
+}

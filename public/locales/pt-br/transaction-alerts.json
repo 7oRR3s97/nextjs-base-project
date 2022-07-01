@@ -1,0 +1,10 @@
+{
+  "web3-disabled-title": "erro",
+  "web3-disabled-message": "conecte-se com sua carteira para utilizar esta funcionalidade",
+  "failed-withdraw-title": "transação falhou",
+  "failed-withdraw-message": "caso você já tenha realizado a transferência dos tokens, entre em contato pelo email contato@kizi.com.br com o id da transação, o link de detalhes e a blockchain utilizada.",
+  "successful-withdraw-title": "transação bem sucedida",
+  "successful-withdraw-message": "em breve o dinheiro estará em sua conta",
+  "failed-deposit-title": "erro",
+  "failed-deposit-message": "ocorreu um erro, tente novamente mais tarde."
+}

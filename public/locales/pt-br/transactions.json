@@ -1,0 +1,15 @@
+{
+  "withdraw-balance-button": "sacar",
+  "deposit-balance-button": "depositar",
+  "withdraw-balance-title": "saque",
+  "withdraw-balance-subtitle": "insira o valor que deseja sacar",
+  "withdraw-set-balance-button": "sacar",
+  "withdraw-max-button": "máx",
+  "exceed-balance-helper-text": "valor superior ao seu saldo",
+  "withdraw-input-label": "valor",
+  "deposit-success-title": "leia o qrcode ou copie o link para realizar seu pagamento",
+  "deposit-success-subtitle": "quando seu pagamento for confirmado depositaremos KBRTs no endereço da conta que está conectada, podendo ocorrer taxas referentes às transações que serão descontadas dos tokens comprados.",
+  "copy": "copiar",
+  "copied": "copiado",
+  "balance-label": "meu saldo"
+}

@@ -1,0 +1,17 @@
+{
+  "title": "cadastro",
+  "start-subtitle": "informações pessoais",
+  "back-data-subtitle": "dados bancários",
+  "full-name-label": "nome completo",
+  "full-name-helper-text": "insira o nome que consta em seu documento de identificação oficial",
+  "country-label": "país",
+  "document-label": "cpf/cnpj",
+  "document-invalid-helper-text": "cpf/cnpj inválido",
+  "bank-label": "banco",
+  "bank-branch-label": "agência",
+  "bank-branch-verification-digit-label": "dígito verificador",
+  "bank-account-label": "conta",
+  "bank-account-verification-digit-label": "dígito verificador",
+  "continue-button": "continuar",
+  "confirm-button": "completar cadastro"
+}

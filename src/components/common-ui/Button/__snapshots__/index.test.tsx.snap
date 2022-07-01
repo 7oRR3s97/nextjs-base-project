@@ -1,0 +1,436 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should render a Alert button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-alert MuiButton-alertPrimary MuiButton-sizeMedium MuiButton-alertSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1lysfs6-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Box button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-box MuiButton-boxPrimary MuiButton-sizeMedium MuiButton-boxSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-11gj9jf-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Filled Button 1`] = `
+<button
+  class="MuiButton-root MuiButton-filled MuiButton-filledPrimary MuiButton-sizeMedium MuiButton-filledSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1hdtpvp-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Filled button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-filled MuiButton-filledPrimary MuiButton-sizeMedium MuiButton-filledSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1hdtpvp-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a FilledBlack button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-filledBlack MuiButton-filledBlackPrimary MuiButton-sizeMedium MuiButton-filledBlackSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-16zyl76-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a FilledBoxShadowMain button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-filledBoxShadowMain MuiButton-filledBoxShadowMainPrimary MuiButton-sizeMedium MuiButton-filledBoxShadowMainSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-bxeksc-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a FilledBoxShadowWhite button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-filledBoxShadowWhite MuiButton-filledBoxShadowWhitePrimary MuiButton-sizeMedium MuiButton-filledBoxShadowWhiteSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-eu9je8-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a FilledWhite button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-filledWhite MuiButton-filledWhitePrimary MuiButton-sizeMedium MuiButton-filledWhiteSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-ah7gmo-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Footer button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-footer MuiButton-footerPrimary MuiButton-sizeMedium MuiButton-footerSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-17brtdj-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Gradient button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-gradient MuiButton-gradientPrimary MuiButton-sizeMedium MuiButton-gradientSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-giz3fw-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Gray button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-gray MuiButton-grayPrimary MuiButton-sizeMedium MuiButton-graySizeMedium MuiButton-disableElevation MuiButtonBase-root  css-n0b1s1-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a GrayOutlined button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-grayOutlined MuiButton-grayOutlinedPrimary MuiButton-sizeMedium MuiButton-grayOutlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1bak55n-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Halfline button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-halfline MuiButton-halflinePrimary MuiButton-sizeMedium MuiButton-halflineSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-15rxd3t-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Icon button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-icon MuiButton-iconPrimary MuiButton-sizeMedium MuiButton-iconSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-12yegwm-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a IconUnderlined button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-iconUnderlined MuiButton-iconUnderlinedPrimary MuiButton-sizeMedium MuiButton-iconUnderlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-p80tga-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Link button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-link MuiButton-linkPrimary MuiButton-sizeMedium MuiButton-linkSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-14eylvo-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Outlined button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-link MuiButton-linkPrimary MuiButton-sizeMedium MuiButton-linkSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-14eylvo-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Outlinedblack button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-outlinedBlack MuiButton-outlinedBlackPrimary MuiButton-sizeMedium MuiButton-outlinedBlackSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-13c2xbh-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Quiz button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-quiz MuiButton-quizPrimary MuiButton-sizeMedium MuiButton-quizSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-vzaalj-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a SelectedUnderlined button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-selectedUnderlined MuiButton-selectedUnderlinedPrimary MuiButton-sizeMedium MuiButton-selectedUnderlinedSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-ppnppl-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a SquareUpDown button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-squareUpDown MuiButton-squareUpDownPrimary MuiButton-sizeMedium MuiButton-squareUpDownSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-g15kb8-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a Text button from story 1`] = `
+<button
+  class="MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1ksbsgc-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a disabled Filled Button 1`] = `
+<button
+  class="MuiButton-root MuiButton-link MuiButton-linkPrimary MuiButton-sizeMedium MuiButton-linkSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-14eylvo-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  disabled=""
+  tabindex="-1"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a href Filled Button 1`] = `
+<button
+  class="MuiButton-root MuiButton-filled MuiButton-filledPrimary MuiButton-sizeMedium MuiButton-filledSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1hdtpvp-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a href newWindow Filled Button 1`] = `
+<button
+  class="MuiButton-root MuiButton-filled MuiButton-filledPrimary MuiButton-sizeMedium MuiButton-filledSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1hdtpvp-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render a loading filled button 1`] = `
+<button
+  class="MuiButton-root MuiButton-filled MuiButton-filledPrimary MuiButton-sizeMedium MuiButton-filledSizeMedium MuiButton-disableElevation MuiButtonBase-root Mui-disabled  css-1hdtpvp-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  disabled=""
+  tabindex="-1"
+  type="button"
+>
+  <div
+    class="MuiBox-root css-10ymegu"
+  >
+    <span
+      class="MuiCircularProgress-root MuiCircularProgress-indeterminate MuiCircularProgress-colorInherit css-62e83j-MuiCircularProgress-root"
+      role="progressbar"
+      style="width: 1rem; height: 1rem;"
+    >
+      <svg
+        class="MuiCircularProgress-svg css-1idz92c-MuiCircularProgress-svg"
+        viewBox="22 22 44 44"
+      >
+        <circle
+          class="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate css-176wh8e-MuiCircularProgress-circle"
+          cx="44"
+          cy="44"
+          fill="none"
+          r="20.2"
+          stroke-width="3.6"
+        />
+      </svg>
+    </span>
+  </div>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;
+
+exports[`Button should render an Icon Filled button 1`] = `
+<button
+  class="MuiButton-root MuiButton-filled MuiButton-filledPrimary MuiButton-sizeMedium MuiButton-filledSizeMedium MuiButton-disableElevation MuiButtonBase-root  css-1hdtpvp-MuiButtonBase-root-MuiButton-root"
+  data-testid="button-component"
+  tabindex="0"
+  type="button"
+>
+  <div
+    class="MuiBox-root css-w4ynmh"
+  >
+    <div />
+  </div>
+  <p
+    class="MuiTypography-root MuiTypography-body1 css-116ddpc-MuiTypography-root"
+  >
+    button
+  </p>
+</button>
+`;

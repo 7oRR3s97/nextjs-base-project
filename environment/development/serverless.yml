@@ -1,0 +1,18 @@
+# serverless.yml
+
+KiziWebAppDevelopment:
+  component: '@sls-next/serverless-component@3.7.0'
+  inputs:
+    bucketName: ${env.SERVERLESS_BUCKET_NAME_DEVELOPMENT}
+    bucketRegion: ${env.SERVERLESS_BUCKET_REGION_DEVELOPMENT}
+    minifyHandlers: true
+    useServerlessTraceTarget: true
+    build:
+      cmd: 'yarn'
+    cloudfront:
+      distributionId: ${env.CLOUDFRONT_DISTRIBUTION_ID_DEVELOPMENT}
+      comment: 'Kizi Development Distribution'
+    name:
+      defaultLambda: ${env.SERVERLESS_DEFAULT_LAMBDA_DEVELOPMENT}
+      apiLambda: ${env.SERVERLESS_API_LAMBDA_DEVELOPMENT}
+      imageLambda: ${env.SERVERLESS_IMAGE_LAMBDA_DEVELOPMENT}

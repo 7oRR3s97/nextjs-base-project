@@ -1,0 +1,17 @@
+{
+  "title": "register",
+  "start-subtitle": "personal information",
+  "back-data-subtitle": "bank data",
+  "full-name-label": "full name",
+  "full-name-helper-text": "enter the name that appears on your official identification document",
+  "country-label": "country",
+  "document-label": "cpf/cnpj",
+  "document-invalid-helper-text": "cpf/cnpj invalid",
+  "bank-label": "bank",
+  "bank-branch-label": "agency",
+  "bank-branch-verification-digit-label": "check digit",
+  "bank-account-label": "accont",
+  "bank-account-verification-digit-label": "check digit",
+  "continue-button": "continue",
+  "confirm-button": "complete registration"
+}

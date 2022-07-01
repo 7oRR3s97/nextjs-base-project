@@ -1,0 +1,175 @@
+version: 2.1
+orbs:
+  aws-cli: circleci/aws-cli@3.1.1
+  codecov: codecov/codecov@3.2.2
+
+executors:
+  default:
+    docker:
+      - image: node:16.14.2
+
+jobs:
+  test:
+    docker:
+      - image: node:latest
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: isaac-tests-{{ .Branch }}
+
+      - run:
+          name: Install node_modules
+          command: yarn
+
+      - run:
+          name: Run tests
+          command: yarn test
+
+      - codecov/upload
+
+      - save_cache:
+          key: isaac-tests-{{ .Branch }}-{{ .BuildNum }}
+          paths:
+            - node_modules/
+
+  deploy-development:
+    docker:
+      - image: node:latest
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: isaac-{{ .Branch }}
+
+      - run:
+          name: Install and run aws-amplify/cli
+          shell: /bin/bash
+          command: |
+            npm install -g @aws-amplify/cli
+            cp ./environment/development/amplify.sh amplify.sh && cat amplify.sh | /bin/bash && rm amplify.sh
+
+      - run:
+          name: Install and prepare serverless
+          command: |
+            npm install -g serverless@2.72.2
+            rm -rf .serverless
+
+      - run:
+          name: Install node_modules
+          command: yarn
+
+      - run:
+          name: Deploy using serverless
+          command: |
+            cp ./environment/development/serverless.yml serverless.yml
+            serverless --debug
+            rm serverless.yml
+
+      - save_cache:
+          key: isaac-{{ .Branch }}-{{ .BuildNum }}
+          paths:
+            - node_modules/
+            - .next/cache/
+
+  deploy-production:
+    docker:
+      - image: node:latest
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: isaac-{{ .Branch }}
+
+      - run:
+          name: Install and run aws-amplify/cli
+          shell: /bin/bash
+          command: |
+            npm install -g @aws-amplify/cli
+            cp ./environment/production/amplify.sh amplify.sh && cat amplify.sh | /bin/bash && rm amplify.sh
+
+      - run:
+          name: Install and prepare serverless
+          command: |
+            npm install -g serverless@2.72.2
+            rm -rf .serverless
+
+      - run:
+          name: Install node_modules
+          command: yarn
+
+      - run:
+          name: Deploy using serverless
+          command: |
+            cp ./environment/production/serverless.yml serverless.yml
+            serverless --debug
+            rm serverless.yml
+
+      - save_cache:
+          key: isaac-{{ .Branch }}-{{ .BuildNum }}
+          paths:
+            - node_modules/
+            - .next/cache/
+
+  deploy-storybook:
+    executor: default
+
+    steps:
+      - checkout
+
+      - restore_cache:
+          key: isaac-storybook
+
+      - aws-cli/setup:
+          profile-name: default
+          aws-access-key-id: AWS_ACCESS_KEY_ID
+          aws-region: STORYBOOK_AWS_REGION
+          aws-secret-access-key: AWS_SECRET_ACCESS_KEY
+
+      - run:
+          name: Install node_modules
+          command: |
+            yarn
+
+      - run:
+          name: Deploy storybook to S3
+          command: |
+            npx storybook-to-aws-s3 --bucket-path=$STORYBOOK_AWS_S3_BUCKET_NAME
+
+      - save_cache:
+          key: isaac-storybook-{{ .BuildNum }}
+          paths:
+            - node_modules/
+
+workflows:
+  deploy:
+    jobs:
+      - test:
+          context: isaac-webapp
+      - deploy-storybook:
+          context:
+            - isaac-webapp
+          requires:
+            - test
+          filters:
+            branches:
+              only: devel
+      - deploy-development:
+          context:
+            - isaac-webapp
+          requires:
+            - test
+          filters:
+            branches:
+              only: devel
+      - deploy-production:
+          context:
+            - isaac-webapp
+          requires:
+            - test
+          filters:
+            branches:
+              only: master

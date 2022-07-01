@@ -1,0 +1,15 @@
+{
+  "successful-email-verification-alert-title": "email successfully verified",
+  "successful-email-verification-alert-message": "now you can use all kizi services!",
+  "successful-edited-data-alert-title": "success",
+  "successful-edited-data-alert-message": "your data was successfully updated!",
+  "email-not-verified-alert-title": "unverified email",
+  "email-not-verified-alert-message": "access the link sent by email to activate your account and use kizi services!",
+  "email-not-verified-alert-action-button": "resend email",
+  "authentication-incomplete-alert-title": "incomplete registration",
+  "authentication-incomplete-alert-message": "complete your kizi registration to use our services",
+  "authentication-incomplete-alert-action-button": "complete registration",
+  "disallowed-chain-title": "non-integrated blockchain",
+  "disallowed-chain-message": "please select onae of our integrated blockchains: {{chains}}",
+  "close-button": "close"
+}

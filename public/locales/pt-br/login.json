@@ -1,0 +1,19 @@
+{
+  "email-label": "endereço de e-mail",
+  "password-label": "senha",
+  "confirm-password-label": "confirme sua senha",
+  "login-button": "entrar",
+  "signup-button": "cadastrar",
+  "signup-confirm-button": "continuar",
+  "logout-button": "sair",
+  "my-account-button": "minha conta",
+  "login-title": "login",
+  "login-subtitle": "acesse sua conta",
+  "signup-title": "cadastro",
+  "signup-subtitle": "informações pessoais",
+  "forgot-password-button": "esqueci minha senha",
+  "reset-email-sent": "e-mail de redefinição de senha enviado",
+  "forgot-password-email-helper-text": "insira seu email e clique novamente em \"esqueci minha senha\"",
+  "confirm-password-helper-text": "as senhas não são iguais",
+  "weak-password-helper-text": "senha fraca: deve conter letras maiúsculas, letras minúsculas, caracteres especiais, números e ter pelo menos 8 caracteres"
+}

@@ -1,0 +1,10 @@
+{
+  "web3-disabled-title": "error",
+  "web3-disabled-message": "connect to your wallet to use this feature",
+  "failed-withdraw-title": "transaction failed",
+  "failed-withdraw-message": "if you have already transferred the tokens, contact us by email contato@kizi.com.br using the transaction id, details link and the blockchain used.",
+  "successful-withdraw-title": "successful transaction",
+  "successful-withdraw-message": "soon the money will be in your account",
+  "failed-deposit-title": "error",
+  "failed-deposit-message": "an error occurred, please try again later."
+}

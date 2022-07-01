@@ -1,0 +1,19 @@
+{
+  "email-label": "email address",
+  "password-label": "password",
+  "confirm-password-label": "confirm your password",
+  "login-button": "login",
+  "signup-button": "signup",
+  "signup-confirm-button": "continue",
+  "logout-button": "logout",
+  "my-account-button": "my account",
+  "login-title": "login",
+  "login-subtitle": "access your account",
+  "signup-title": "signup",
+  "signup-subtitle": "personal information",
+  "forgot-password-button": "I forgot my password",
+  "reset-email-sent": "password reset email sent",
+  "forgot-password-email-helper-text": "enter your email and click again in \"forgot my password\"",
+  "confirm-password-helper-text": "passwords do not match",
+  "weak-password-helper-text": "weak password: must contain uppercase letters, lowercase letters, special characters, numbers and contain at least 8 characters"
+}

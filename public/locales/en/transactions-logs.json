@@ -1,0 +1,15 @@
+{
+  "deposit": "deposit",
+  "withdraw": "withdraw",
+  "success": "finished",
+  "failed": "canceled",
+  "pending": "pending",
+  "payment-type-header": "type",
+  "payment-status-header": "status",
+  "payment-id-header": "code",
+  "payment-amount-header": "amount",
+  "payment-tax-header": "fee",
+  "payment-create-header": "creation",
+  "payment-update-header": "update",
+  "blockchain-transaction-hash-header": "details"
+}
